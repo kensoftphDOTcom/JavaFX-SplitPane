@@ -2,6 +2,7 @@ package com.kensoftph.splitpane;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Orientation;
 import javafx.scene.Scene;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TextArea;
@@ -19,6 +20,8 @@ public class Main extends Application {
         stage.show();*/
 
         SplitPane splitPane = new SplitPane();
+        //splitPane.setDividerPosition(0,0.8);
+        //splitPane.setOrientation(Orientation.VERTICAL);
         TextArea txtArea1 = new TextArea();
         TextArea txtArea2 = new TextArea();
         txtArea1.setWrapText(true);
